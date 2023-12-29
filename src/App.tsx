@@ -1,10 +1,10 @@
-import React from 'react';
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div className="text-3xl text-lime-300 ">
-      Namaste!
-    </div>
+    <>
+      <Outlet />
+    </>
   );
 }
 
